@@ -12,12 +12,12 @@ const ShowImages = () => {
   ]);
 
   const imageSequence = [
-    "/images/pic1.jpg",
-    "/images/pic2.jpg",
-    "/images/pic3.jpg",
-    "/images/pic3.jpg",
-    "/images/pic2.jpg",
-    "/images/pic1.jpg",
+    "/images/pic1.jpeg",
+    "/images/pic3.jpeg",
+    "/images/pic2.jpeg",
+    "/images/pic4.jpeg",
+    "/images/pic5.jpeg",
+    "/images/pic6.jpeg",
   ];
 
   const [position, setPosition] = useState(1);
@@ -70,7 +70,7 @@ const ShowImages = () => {
         </h1>
         <div className="flex gap-28">
           <button
-            className="bg-black text-white p-4 hover:bg-white hover:text-black transition-all"
+            className="bg-black text-white p-4 rounded hover:bg-white hover:text-black transition-all"
             onClick={handleClick}
           >
             Yes
